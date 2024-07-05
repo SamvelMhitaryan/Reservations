@@ -60,11 +60,8 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 
-# замена настроек БД и ключа django под себя.
+# Запуск сервера
 
-python3 manage.py collectstatic    # \
-python3 manage.py makemigrations   #  Или все одной командой через &&
-python3 manage.py migrate          # /
+uvicorn api:app --host 0.0.0.0 --port 8000
 
-python3 manage.py runserver 8000   # либо полноценно через gunicorn, nginx и т.д.
 ```
