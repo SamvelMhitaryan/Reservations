@@ -57,6 +57,6 @@ pip install -r requirements.txt
 4. Запуск: 
 
 ```bash
-uvicorn api:app --host 0.0.0.0 --port 8000
+python3 main.py
 ```
 
