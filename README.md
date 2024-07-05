@@ -57,11 +57,6 @@ pip install -r requirements.txt
 4. Запуск: 
 
 ```bash
-python3 manage.py runserver
-```
-
-# Запуск сервера
-
 uvicorn api:app --host 0.0.0.0 --port 8000
-
 ```
+
