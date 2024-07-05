@@ -26,8 +26,7 @@ uvicorn, pydantic.
 0. Загрузка проекта и переход в директорию 
 
 ```bash
-git clone git@github.com:SamvelMhitaryan/filmapoisk.git
-cd filmapoisk
+git clone git@github.com:SamvelMhitaryan/Reservations.git
 ```
 
 1. Создание виртуального окружения (venv): 
