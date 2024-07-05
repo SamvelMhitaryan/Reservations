@@ -53,7 +53,7 @@ Windows
 pip install -r requirements.txt
 ```
 
-4. Запуск: 
+5. Запуск: 
 
 ```bash
 python3 main.py
